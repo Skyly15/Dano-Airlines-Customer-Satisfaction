@@ -66,7 +66,8 @@ The final Tableau dashboard presents all findings on a single page, including:
 - Interactive filters for deeper exploration  
 
 **Dashboard Link:**  
-[Tableau Public Dashboard](Paste-your-Tableau-Public-dashboard-link-here)
+Coming soon (to be added after Tableau Public publication)
+
 
 **Dashboard Screenshot:**  
 ![Dashboard Screenshot](dashboard.png)
