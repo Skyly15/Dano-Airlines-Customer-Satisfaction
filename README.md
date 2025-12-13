@@ -70,7 +70,7 @@ Coming soon (to be added after Tableau Public publication)
 
 
 **Dashboard Screenshot:**  
-![Dashboard Screenshot](Dashboard.png)
+![Dashboard Screenshot](dashboard.png)
 
 
 ---
