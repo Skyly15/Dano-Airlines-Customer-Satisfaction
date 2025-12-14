@@ -1,85 +1,73 @@
 # Dano Airlines Customer Satisfaction Analysis
 
 ## Project Overview
-This project analyzes customer satisfaction survey data from over 120,000 airline passengers to identify the key drivers behind a recent decline in satisfaction rates at **Dano Airlines**, a UK-based airline headquartered in London.
+This project is a Capstone challenge where I assumed the role of a Data Analyst for **Dano Airlines**, a UK-based airline headquartered in London.  
 
-The objective of this analysis is to provide **data-driven recommendations** that can help Dano Airlines improve customer satisfaction and return to acceptable performance levels.
+The latest passenger survey results showed that the satisfaction rate has dipped **under 50%** for the first time ever. The leadership team needs actionable insights quickly, so the task was to analyze the data, identify key pain points, and recommend a data-driven strategy to increase satisfaction.
 
----
+The final deliverable is a **single-page interactive dashboard** built in Tableau Public.
 
-## Dataset Description
-The dataset consists of passenger survey responses and flight-related information, including:
-
-- **Passenger satisfaction status**
-- **Service quality ratings** (seat comfort, cleanliness, in-flight service, food and drink, etc.)
-- **Travel class** (Economy, Business)
-- **Type of travel** (Business or Personal)
-- **Customer type** (First-time or Returning)
-
-Each row represents an individual passenger’s survey response, while each column captures a specific aspect of their travel experience.
-
----
+### Dataset
+- Customer satisfaction scores from **120,000+ airline passengers**.
+- Includes passenger details (age, gender, customer type), flight info (distance, delays, class), type of travel (business/personal), and ratings (1-5 scale) for various service factors.
+- Source: [Google Sheets Dataset](https://docs.google.com/spreadsheets/d/15Kp-2yfQFNRGJPNOkpMwG-OMX8xVZOJ5VL7f35v7sRQ/edit#gid=1647986900)
 
 ## Tools Used
-- **Tableau** – for data analysis and dashboard creation  
-- **GitHub** – for project documentation and version control  
-
----
-
-## Analysis Approach
-The analysis focused on answering three core business questions:
-
-1. **What is the current customer satisfaction rate?**  
-   - Calculated the percentage of passengers who reported being satisfied to create a **satisfaction rate KPI**.
-
-2. **What factors are driving customer dissatisfaction?**  
-   - Analyzed satisfaction against key service quality variables such as seat comfort, cleanliness, and in-flight service to identify low-performing areas.
-
-3. **Which customer segments are most affected?**  
-   - Compared satisfaction levels across travel class, type of travel, and customer type to determine which passenger groups require the most attention.
-
----
+- **Tableau Public** (web authoring) – for visualization and dashboard creation
+- Excel/Google Sheets – for initial data download
 
 ## Key Insights
-- Overall customer satisfaction has **fallen below 50%**, signaling a significant performance issue.  
-- **Seat comfort** and **in-flight service** are the lowest-rated service factors and show the strongest relationship with dissatisfaction.  
-- **Economy-class passengers** exhibit the lowest satisfaction levels, indicating a gap in service quality and comfort expectations.  
-- **Business travelers** demonstrate higher sensitivity to service-related factors compared to leisure travelers.  
+- **Overall Satisfaction**: **43.4%** (below 50% target)
+- **By Customer Segment**:
+  - Business travelers: **~72%** satisfied
+  - Economy travelers: **~31%** satisfied
+  - Leisure (Personal travel): **~10%** satisfied
+- **Strongest Services**:
+  - Baggage Handling (~73%)
+  - In-Flight Service (~73%)
+  - Seat Comfort (~69%)
+- **Weakest Services** (priority areas):
+  - In-flight WiFi (~55%)
+  - Food and Drink (~64%)
+  - Cleanliness (~66%)
 
----
+Average ratings across services are higher (~70-78%) than overall satisfaction, indicating that specific pain points are driving dissatisfaction.
 
-## Recommendations
-Based on the analysis, the following actions are recommended:
+## Data-Driven Recommendations
+1. **Target Economy & Leisure Travelers** – They form the majority and have the lowest satisfaction. Introduce targeted perks (e.g., free WiFi vouchers, meal upgrades) for personal travel and Economy class.
+2. **Prioritize Critical Service Improvements**:
+   - Upgrade **In-flight WiFi** (lowest score) – offer free basic access in Economy.
+   - Enhance **Food and Drink** options – partner with better caterers or add premium meal choices.
+   - Improve **Leg Room** – promote or expand premium Economy seating.
+3. **Operational Focus** – Reduce delays (correlate strongly with low scores).
+4. **Measure Impact** – Run follow-up surveys after changes and track satisfaction quarterly.
 
-- **Prioritize improvements to economy-class seat comfort**, including seating layout and legroom adjustments.  
-- **Implement targeted cabin crew training programs** to improve in-flight service quality.  
-- **Focus improvement efforts on high-volume passenger segments**, particularly economy-class and business travelers, to maximize impact.
+**Expected Outcome**: Focused improvements could lift overall satisfaction back above 50% within 6-12 months.
 
----
-
-## Dashboard
-The final Tableau dashboard presents all findings on a single page, including:
-
-- Overall satisfaction KPI  
-- Satisfaction by service quality factors  
-- Satisfaction by customer segment  
-- Interactive filters for deeper exploration  
-
-**Dashboard Link:**  
-Coming soon (to be added after Tableau Public publication)
+## Tableau Dashboard
+Interactive dashboard published on Tableau Public:  
+[View Dashboard Here](https://public.tableau.com/views/DanoAirlines-CustomerSatisfactionAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
 
 
-**Dashboard Screenshot:**  
+ **Dashboard Screenshot:**  
 ![Dashboard Screenshot](Dano%20Airlines%20Dashboard.png)
 
+## How to Reproduce
+1. Download the dataset from the provided Google Sheets link.
+2. Sign up/log in to Tableau Public.
+3. Upload the Excel file.
+4. Create calculated fields as described.
+5. Build the four sheets (Overall, Service Factors, Segment Satisfaction, Average Segment).
+6. Assemble the dashboard with tiled layout.
+7. Publish.
+
+## Acknowledgments
+- Project for DigitaleyDive Data Analytics Certification
+- Dataset provided via the capstone project
 
 ---
 
-## Conclusion
-This analysis provides **actionable insights** into the primary causes of declining customer satisfaction at Dano Airlines. By addressing the identified service quality gaps and focusing on the most affected customer segments, the airline can take meaningful steps toward improving the passenger experience and restoring satisfaction levels.
-
----
-
-## Author
+**Author**: [Enoh Umukoro]  
+**Date**: December 14, 2025
 **Enoh Umukoro**  
 *Data Analyst*
