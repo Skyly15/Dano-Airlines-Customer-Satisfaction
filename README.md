@@ -50,7 +50,7 @@ Interactive dashboard published on Tableau Public:
 
 
  **Dashboard Screenshot:**  
-![Dashboard Screenshot](Dano%20Airlines%20Dashboard.png)
+![Dashboard Screenshot](Dano%20Airlines%20Customer%20Satisfaction%20Dashboard.png)
 
 ## How to Reproduce
 1. Download the dataset from the provided Google Sheets link.
