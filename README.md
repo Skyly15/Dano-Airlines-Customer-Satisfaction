@@ -14,7 +14,7 @@ The final deliverable is a **single-page interactive dashboard** built in Tablea
 
 ## Tools Used
 - **Tableau Public** (web authoring) – for visualization and dashboard creation
-- Excel/Google Sheets – for initial data download
+- **Excel/Google Sheets** – for initial data download
 
 ## Key Insights
 - **Overall Satisfaction**: **43.4%** (below 50% target)
